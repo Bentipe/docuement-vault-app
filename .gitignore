@@ -1,0 +1,60 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
+
+# Kotlin/Native
+*.klib
+
+# Gradle
+gradle-app.setting
+.gradletasknamecache
+buildSrc/build/
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+gen/
+out/
+.navigation/
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+DerivedData/
+Pods/
+*.xcworkspace/xcuserdata/
+*.hmap
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Environment / secrets
+*.env
+*.keystore
+*.jks
+google-services.json
+
+# OS files
+Thumbs.db
+*~
